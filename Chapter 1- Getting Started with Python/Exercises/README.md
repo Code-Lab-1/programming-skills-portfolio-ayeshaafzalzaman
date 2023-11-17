@@ -18,13 +18,17 @@ Twinkle, twinkle, little star,
 Twinkle, twinkle, little star, 
 	How I wonder what you are
 
+
+print("Twinkle , twinkle, little star,\n\tHow i wonder what you are!\n\t\tUp about the world so high,\n\t\tLike a daimond in the sky.\nTwinkle,twinkle,little star,\n\tHow i wonder what you are")
+
 &nbsp;
 &nbsp;
 &nbsp;
 ## Exercise 2: Print the Version of Python :ballot_box_with_check:
 
  Write a Python program to get the Python version you are using.
-
+impot sys
+print(sys.version)
 
 &nbsp;
 &nbsp;
@@ -41,6 +45,10 @@ Write three strings in different variables and print the output as one string.
 &nbsp;
 &nbsp;
 &nbsp;
+str1="8"
+str2="9"
+str3="4"
+print(str1+str2+str3)
 
 ## Exercise 5: Compute area of Circle :ballot_box_with_check:
 
@@ -49,4 +57,8 @@ Write a Python program which accepts the radius of a circle from the user and co
 &nbsp;
 &nbsp;
 &nbsp;
-
+import math
+pi=3.14
+radius=float(input("enter the radius of circle"))
+areaofcircle=pi*radius*radius
+print("the area of cicle :",areaofcircle)
